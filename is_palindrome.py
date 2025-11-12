@@ -22,8 +22,19 @@ def is_palindrome_clean(s):
 
 
 
-print(is_palindrome_clean("Racecar"))                    
-print(is_palindrome_clean("A man a plan a canal Panama")) 
+print(is_palindrome_clean("Race fast, safe car"))                    
+print(is_palindrome_clean("A Toyota's a Toyota")) 
 print(is_palindrome_clean("Hello, world!"))           
 
+# Bonus : Print a message instead of True/False
+def is_palindrome_message(s):
+    cleaned = "".join(char.lower() for char in s if char.isalnum())
+    if cleaned == cleaned[::-1]:
+        return "Yes, it's a palindrome!"
+    else:
+        return "No, it's not a palindrome."
+
+
+print(is_palindrome_message("Too hot to hoot"))
+print(is_palindrome_message("Palindrome"))
 

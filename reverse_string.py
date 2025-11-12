@@ -10,3 +10,5 @@ def reverse_string_loop(s):
     for char in s:
         reversed_str = char + reversed_str
     return reversed_str
+print(reverse_string_loop("hello"))
+print(reverse_string_loop("Python"))

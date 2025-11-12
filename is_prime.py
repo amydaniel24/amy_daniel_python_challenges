@@ -31,3 +31,12 @@ print(is_prime_efficient(11))
 print(is_prime_efficient(15))  
 print(is_prime_efficient(97))   
 
+
+def primes_up_to(limit):
+    primes = []
+    for num in range(2, limit + 1):
+        if is_prime(num):  
+            primes.append(num)
+    return primes
+
+print(primes_up_to(30))  

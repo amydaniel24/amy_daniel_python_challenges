@@ -34,3 +34,20 @@ def find_max_with_index(numbers):
 
 print(find_max_with_index([4, 9, 1, 17, 2]))  
 print(find_max_with_index([-5, -9, -2, -12])) 
+
+# Return it using a while loop
+def find_max_while(numbers):
+    if not numbers:
+        return None
+
+    i = 0
+    current_max = numbers[0]
+
+    while i < len(numbers):
+        if numbers[i] > current_max:
+            current_max = numbers[i]
+        i += 1
+
+    return current_max
+print(find_max_while([3, 8, 2, 10, 6]))  
+

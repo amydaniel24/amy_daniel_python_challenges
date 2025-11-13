@@ -14,11 +14,11 @@ def check_password_strength(password):
     score = sum([length, upper, lower, digit, symbol])
 
     if score == 5:
-        return "Strong "
+        return "Your password is STRONG as Hercules! "
     elif 3 <= score < 5:
-        return "Medium "
+        return "Ah, your password might not get hacked, it's MEDIUM strength. "
     else:
-        return "Weak "
+        return "Weak as WATER!!!!!! "
 
 
 password = input("Enter a password: ")

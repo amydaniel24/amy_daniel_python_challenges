@@ -2,7 +2,7 @@
 
 Python Challenges for AUG 25 CODE:You DA
 
-Here are the types of challenges coevered in this repo:
+Here are the types of challenges covered in this repo:
 
 Reverse a String – Work with indexing and loops
 Check for a Palindrome – Combine string methods, logic, and functions

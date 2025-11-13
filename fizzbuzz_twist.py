@@ -4,7 +4,7 @@
 
 def fizzbuzz_twist():
     
-    for num in range(1, 101):
+    for num in range(1, 100):
         result = ""
         if num % 3 == 0:
             result += "Fizz"
